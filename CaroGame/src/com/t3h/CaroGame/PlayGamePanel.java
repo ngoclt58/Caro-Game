@@ -3,6 +3,8 @@ package com.t3h.CaroGame;
 import java.awt.CardLayout;
 import java.awt.Color;
 
+import javax.swing.ImageIcon;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class PlayGamePanel extends JPanel{
@@ -22,7 +24,6 @@ public class PlayGamePanel extends JPanel{
 	}
 
 	private void initPlayGamePanel() {
-		setBackground(Color.WHITE);
 		setLayout(new CardLayout());
 	}
 }
